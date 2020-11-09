@@ -3,7 +3,6 @@ class CreateWeddings < ActiveRecord::Migration[6.0]
     create_table :weddings do |t|
       t.string :description
       t.date :date
-
       t.timestamps
     end
   end
